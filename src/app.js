@@ -156,7 +156,7 @@ function renderButtons() {
 //Challenge 2 - Render only the items selected in the ingredients board based on the state
 
 const list = document.querySelectorAll(".items");
-var total = 170;
+var total = 160;
 
 document.querySelector(".btn-patty").addEventListener("click", () => {
   if (!state.Patty) {
